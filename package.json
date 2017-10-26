@@ -1,0 +1,91 @@
+{
+    "author": "w-wer",
+    "dependencies": {},
+    "keywords": [],
+    "name": "health-w-wer",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "HEALTH w-wer",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "BATTERY_CHARGE",
+            "BATTERY_STATE",
+            "VBC",
+            "COLOR_RED",
+            "COLOR_BLUE",
+            "COLOR_GREEN",
+            "VBD",
+            "BG_COLOR",
+            "DATE_FORMAT",
+            "LANG_SEL",
+            "PHONE_BAT"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/Icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_ICON",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/Herz_w.png",
+                    "name": "IMAGE_HERZ_W",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/Schuh_b.png",
+                    "name": "IMAGE_SHOE_B",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/Schuh_w.png",
+                    "name": "IMAGE_SHOE_W",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "fonts/LECO 1976-Altdiacritics Regular.ttf",
+                    "name": "FONT_LECO_55",
+                    "targetPlatforms": null,
+                    "type": "font"
+                },
+                {
+                    "file": "images/bl_tp.png",
+                    "name": "IMAGE_BL",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/DP.png",
+                    "name": "IMAGE_DP",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/Schritte.png",
+                    "name": "IMAGE_SCHRITTE",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "diorite"
+        ],
+        "uuid": "0a2130b4-00c0-4af6-a9b6-abc04f2b544b",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.4.0"
+}
